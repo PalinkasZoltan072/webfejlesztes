@@ -1,0 +1,85 @@
+1
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+       table, td, th{
+           border: 1px solid black;
+           border-collapse: collapse;
+       }
+    </style>
+    <title>Felsorolás, táblázat</title>
+</head>
+
+<body>
+    <!--unordered list= felsorolas-->
+    <h1>gyümölcsök</h1>
+    <ul>
+        <!--list item = lista elem-->
+        <li>mandarin</li>
+        <li>banán</li>
+        <li>kiwi</li>
+        <li>alma</li>
+    </ul>
+    <!--ordered list= számozott felsorolás-->
+    <h1>Tantárgyak</h1>
+    <ol  type="a"> 
+        <li>Digitális kultúra</li>
+        <li>Angol</li>
+        <li>Programozás</li>
+        <li>Matematika</li>
+        <li>Komplex</li>
+        <li>magyar</li>
+        <li>Ita</li>
+    </ol>
+
+    <h1>Ülésrend</h1>
+    <table>
+        <!--table row= tablazat sor-->
+        <tr>
+            <th> 1.oszlop</th>
+            <th> 2.oszlop</th>
+            <th> 3.oszlop</th>
+        </tr>
+        <tr>
+            <td  colspan="3">Farkas Norbert Levente</td>
+        </tr>
+        <tr>
+            <!--table data= tablazat cella-->
+            <td>    Monori Levente </td>
+            <td>Lilla</td>
+            <td>Détári Gina</td>
+        </tr>
+        <tr>
+            <td>Radics Viktor</td>
+            <td>Varga Csaba</td>
+            <td>Détári Viki</td>
+        </tr>
+        
+        
+    </table>
+
+    <h1>Táblázat</h1>
+
+    <table>
+        <tr>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td rowspan="2">a</td>
+            <td>a</td>
+        </tr>
+        <tr>
+            <td>a</td>
+
+            <td>a</td>
+        </tr>
+    </table>
+</body>
+
+</html>
