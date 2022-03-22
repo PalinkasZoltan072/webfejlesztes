@@ -70,7 +70,7 @@
     padding: 20px;
 }
 
-#div9~div {
+.utso~div {
     width: 80%;
     margin: 10px auto;
 }
@@ -98,9 +98,32 @@
 }
 
 #div14 {
+    width: calc(80% - 18px);
     border: 10px solid blue;
+    box-sizing: content-box;
 }
 
 #div15 {
-border: 10px solid purple;
+     width: calc(80% + 42px);
+    border: 10px solid purple;
+    box-sizing: border-box;
+}
+
+#div25 {
+background-color: chartreuse;
+width: 100%;
+border: 10px solid red;
+box-sizing: border-box;
+}
+
+#div17 {
+
+}
+
+#div18 {
+
+}
+
+#div19 {
+
 }
