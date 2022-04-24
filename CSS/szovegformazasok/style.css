@@ -91,15 +91,17 @@ a:hover {
 }
 
 #p19 {
-    background-color: rgb(184, 134, 11);
+    background-color: rgb(184, 134, 11, 50%);
     color: rgb(100, 100, 100);
     font-size: 150%;
     letter-spacing: 3px;
 }
-#p20{
-    
-    background-color: hsl(218, 45%, 86%);
+
+#p20 {
+    /* árnyalat, telítettség, fényerő */
+    background-color: hsl(130, 90%, 20%);
 }
+
 #p21 span {
-color: red;
+    color: red;
 }

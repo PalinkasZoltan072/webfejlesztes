@@ -1,0 +1,26 @@
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    background-color: azure;
+    padding: 30px;
+}
+
+h2 {
+    background-color: bisque;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.col {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}

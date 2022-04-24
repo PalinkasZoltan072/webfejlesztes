@@ -21,11 +21,13 @@ table, td, th {
 }
 
 html {
-    background-color: rgb(200, 0, 0 ,10%);
+    background-color: rgba(200, 0, 0, 10%);
 }
+
 p {
-text-align: justify;
+    text-align: justify;
 }
+
 h1 {
     font-variant: small-caps;
     font-size: 4rem;

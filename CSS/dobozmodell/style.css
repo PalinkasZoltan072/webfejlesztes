@@ -2,52 +2,53 @@
     background-color: red;
 }
 
- span {
+span {
     background-color: yellow;
-    display: block
- }
+    display: block;
+}
 
- a:first-of-type {
-     background-color: green;
-     
- }
+a:first-of-type {
+    background-color: green;
+    /* height: 100px; */
+}
 
- #doboz {
-     text-align: center;
-     background-color: orange;
-     width: 40%;
-     height: 100px;
-     padding: 40px;
-     border: 5px solid black;
-     margin: 20px;
- } 
+#doboz {
+    text-align: center;
+    background-color: orange;
+    width: 40%;
+    height: 100px;
+    padding: 40px;
+    border: 5px solid black;
+    margin: 20px;
+}
 
- .doboz {
-     border: 1px solid black;
- }
+.doboz {
+    border: 1px solid black;
+}
 
- #div1 {
-     margin:  10px;
- }
+#div1 {
+    margin: 10px;
+}
 
- #div2 {
-     margin-top: 25px;
-     margin-right: 50px;
-     margin-bottom: 75px;
-     margin-left: 100px;
- }
+#div2 {
+    margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+}
 
- #div3 {
-     margin: 25px 50px 75px 100px;
- }
+#div3 {
+    margin: 25px 50px 75px 100px;
+}
 
- #div4 {
-     margin:  25px 50px;
- }
+#div4 {
+    margin: 25px 50px;
+}
 
 #div5 {
     margin: 100px 50px 25px;
 }
+
 #div6 {
     width: 80%;
     margin: 10px 10%;
@@ -55,8 +56,8 @@
 
 #div7 {
     width: 400px;
-     margin: 10px  calc((100%-400px)/2);
-    }
+    margin: 10px calc((100% - 400px)/2);
+}
 
 #div8 {
     width: 80%;
@@ -67,17 +68,17 @@
     --maci: 400px;
     width: var(--maci);
     margin: 10px calc((100% - var(--maci))/2);
-    padding: 20px;
 }
 
 .utso~div {
     width: 80%;
     margin: 10px auto;
+    padding: 20px;
 }
 
 #div10 {
-    border-top-style: dashed;
-    border-width: 5px;
+    border-style: dotted;
+    border-width: 2px;
     border-color: hotpink;
 }
 
@@ -89,7 +90,7 @@
 #div12 {
     border-top: 1px dotted blue;
     border-right: 2px solid red;
-    border-bottom: 5px dashed rgb(200, 200, 0);
+    border-bottom: 5px dashed #F0F7A2;
     border-left: none;
 }
 
@@ -104,26 +105,14 @@
 }
 
 #div15 {
-     width: calc(80% + 42px);
+    width: calc(80% + 42px);
     border: 10px solid purple;
     box-sizing: border-box;
 }
 
 #div25 {
-background-color: chartreuse;
-width: 100%;
-border: 10px solid red;
-box-sizing: border-box;
-}
-
-#div17 {
-
-}
-
-#div18 {
-
-}
-
-#div19 {
-
+    background-color: chartreuse;
+    width: 100%;
+    border: 10px solid red;
+    box-sizing: border-box;
 }
